@@ -1,6 +1,6 @@
-# Position-based Scaled Gradient for Model Quantization and Sparse Training (NeurIPS 2020)
+# Position-based Scaled Gradient for Model Quantization and Pruning (NeurIPS 2020)
 
-This repository is the official implementation of [Position-based Scaled Gradient for Model Quantization and Sparse Training](). 
+This repository is the official implementation of [Position-based Scaled Gradient for Model Quantization and Pruning](https://papers.nips.cc/paper/2020/hash/eb1e78328c46506b46a4ac4a1e378b91-Abstract.html). 
 
 The source code is for reproducing the results of Figure 1 of the original paper and Table 1A of Appendix A.
 
@@ -93,10 +93,12 @@ Please refer to the following citation if this work is useful for your research.
 ### Bibtex:
 
 ```
-@article{kim2020position,
-  title={Position-based Scaled Gradient for Model Quantization and Sparse Training},
-  author={Kim, Jangho and Yoo, KiYoon and Kwak, Nojun},
-  journal={arXiv preprint arXiv:2005.11035},
-  year={2020}
+@misc{kim2020positionbased,
+      title={Position-based Scaled Gradient for Model Quantization and Pruning}, 
+      author={Jangho Kim and KiYoon Yoo and Nojun Kwak},
+      year={2020},
+      eprint={2005.11035},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
